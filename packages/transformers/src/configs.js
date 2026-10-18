@@ -158,6 +158,8 @@ function getNormalizedConfig(config) {
             mapping['num_attention_heads'] = 'num_attention_heads';
             mapping['dim_kv'] = 'head_dim';
             break;
+        case 'qwen3_next':
+        case 'qwen3_5_text':
         case 'qwen3':
         case 'solar_open':
         case 'glm_ocr_text':
